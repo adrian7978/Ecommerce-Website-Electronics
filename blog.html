@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Narendra Chapagain">
+    <meta name="keywords" content="Mobilephones,Gadgets">
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- adding social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300&display=swap"
+        rel="stylesheet">
+
+    <title>Door2Door: Blog</title>
+    <style>
+        .bodycontainer h3 {
+            font-weight: 800px;
+            font-size: 25px;
+            padding-bottom: 15px;
+            display: block;
+        }
+
+        .bodycontainer p {
+            font-size: 18px;
+            padding-bottom: 15px;
+            display: block;
+            margin-left: 75px;
+            margin-right: 75px;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .img {
+            margin: 0 auto;
+            display: block;
+            margin-top: -50px;
+            overflow: hidden;
+        }
+
+        #lefttext{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="fixed-header">
+            <div class="container">
+                <!--NAVIGATION BAR-->
+                <nav class="current">
+                    <a href="index.html">Home</a>
+                    <a href="product.html">Products</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="research.html">Research</a>
+                    <a href="contact.html">Contact Us</a>
+                    <!-- for search bar which is aligned in right-->
+                    <div class="search">
+                        <i class="fas fa-search" style="color:black;"></i>
+                        <input type="text" name="search" id="search" placeholder="Search Products"
+                            style="height:10px;width:150px;border-radius:13px;">
+                    </div>
+                    <a href="sign up.html"
+                        style="float:right;background-color: rgb(190, 235, 236); border-radius: 18px;">Sign up</a>
+                    <a href="login.html" style="float:right;">Login</a>
+                </nav>
+                <!--logo-->
+                <div class="img"><a href="index.html"><img style="float:left;margin-left:470px;" src="IMG\logo.png"
+                            width=200px; height="60px"></a>
+                </div>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button> <!-- button for TOP scroll-->
+    </header>
+    <div class="img-container" style="margin-top:10px;margin-bottom: 10px;">
+        <img src="IMG/technology impacts.jpg" width="100%" height="220px">
+    </div>
+    <div class="bodycontainer">
+        <h3 align="center">The impact of technology on people's lives</h3>
+        <p>
+            Technology is transforming the globe. Technology's greatest benefit is that it brings people together.
+            Technology has a lot of advantages, but it also has a lot of drawbacks. We can execute fairly complex jobs
+            relatively easily with the help of technology. It is fair to claim that technology has made our lives
+            considerably easier and more comfortable. Every day, the globe advances and develops. Because of
+            technological advancements, the world has become a completely different place. There are numerous aspects of
+            our daily life in which we rely on various technologies to do our responsibilities.The technological
+            discoveries, inventions, and engineering applications utilized within society to complete specific jobs have
+            benefitted and hampered ancient and modern human civilizations alike. Technological advancements have become
+            required for societies to exist and evolve, whereas human societies' culture, ideas, and goals have affected
+            how they have generated, benefitted from, and been hampered by technology. Human societies/civilizations and
+            their technology have become interwoven due to the fact that technical systems are produced by humans and
+            reflect the very essence of a population's needs and culture.<span id="dots">...</span><span id="lefttext">
+                Technology has an impact on how people communicate, learn, and think. It contributes to society and
+                influences how individuals interact on a daily basis. In today's world, technology plays a critical
+                role. Ithas both beneficial and negative repercussions on the planet, as well as a direct impact on
+                people'lives.We live in a time when technical advancements are commonplace. Cell phones and the internet
+                are twexamples. However, there is a drawback to technical advancements.<br><br>Learning is one component
+                of technologyhas had a significant impact on society. Learning hasbecommore interactive and
+                collaborative, allowing people to better engage with the topics they are learnin an having difficulty
+                with. It also improves access to resources. With the invention of the internet, we no have access to
+                information at all hours of the day and night, and you can find practically anythin online It also makes
+                it easy for pupils to complete their assignments. Students can take quizzes and exams morreadily, and
+                teachers can hold more productive online classes. It also pushes the classroom'boundaries,encouraging
+                self-paced learning. Learning can be accessed via YouTube and social media.This is more beneficial to
+                students' learning than sitting in lectures and reading textbooks. Learning has become more enjoyable
+                and convenient as a result of technology improvements.<br /><br /> Another way that technology has
+                influenced society is through communication, or how we talk and communicate with one other around the
+                world. Many new forms of electronic communication have emerged as a result of technology. Emails, social
+                networking, facetime with someone on the other side of the planet, and video conferencing are all
+                examples. Finally, technical improvements in the health profession have contributed to individuals being
+                safe and healthy. Many innovative phone apps allow consumers to keep track of their weight, calorie
+                intake, heart rate, and other health characteristics at any time of day. Mobile communication, on the
+                other hand, appears to have a detrimental impact on people's ability to be social and make face-to-face
+                contact, according to studies. Communication and interpersonal relationships may suffer as a result of
+                mobile technology. There is less personal time, and you may find that you don't have enough time for
+                yourself because you are constantly in contact with others. It can also cause you
+                to lose focus on your studies. There's also a loss of privacy because anyone, at any time, can find you
+                wherever. Finally, all of these factors have an influence on how people behave today. Our way of life
+                would be less complicated without technological improvements. Human behavior is now shaped by
+                technological factors.</span>
+        </p>
+    </div>
+    <!--code for read more button starts here-->
+    <button onclick="readMe()" id="myBtn" style="font-size: 20px;margin-left: 570px;">Read more</button>
+
+    <script>
+        function readMe() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("lefttext");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display ="inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+               
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+    <footer class="fixed-footer">
+        <!--footer starts-->
+        <div class="container">
+            <div class="leftitems">
+                <p style="padding-top: 0px;font-size: 18px; padding-right: 3px;"><strong>FOLLOW US ON</strong></p>
+                <a href="https://www.facebook.com/adrian.chapagain.16/" target=_blank>
+                    <i class="fab fa-facebook"style="margin-left:15px;"></i></a>
+                <a href="https://www.twitter.com/" target=_blank><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target=_blank><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="centeritems">
+                <h4 align="center">&copy;Copyright Door2Door<br>Designed By: Narendra Chapagain</h4>
+            </div>
+            <div class="rightitems">
+                <h5 style="font-size: 18px;padding-right:94px;">Get the D2D Newsletter</h5>
+                <button value="SUBSCRIBE" class=submit-footer>SUBSCRIBE</button>
+                <select id="countries" name="country">
+                    <option value="australia">Nepal</option>
+                    <option value="canada">India</option>
+                    <option value="usa">China</option>
+                    <option value="usa">USA</option>
+                    <option value="usa">Australia</option>
+                    <option value="usa">Russia</option>
+                    <style>
+                         #submit-footer{
+                            background-color:red;
+                    }
+                    </style>
+                   
+                </select>
+                <i class="fas fa-globe" style="font-size:32px;float: right;margin: 6px -7px"></i>
+            </div>
+            <div class="terms">
+                <h3><a href="#" style="color:#b6babf;">Terms of Service &emsp; Privacy Policy</a></h3>
+            </div>
+        </div>
+    </footer>
+    <script> //js code for top button starts here
+        //Get the button
+     
+        var topbutton = document.getElementById("topBtn");
+               
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topbutton.style.display = "block";
+          } else {
+            topbutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>

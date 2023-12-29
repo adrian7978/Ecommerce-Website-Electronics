@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Narendra Chapagain">
+    <meta name="keywords" content="Mobilephones,Gadgets">
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- adding social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300&display=swap"
+        rel="stylesheet">
+
+
+    <title>Door2Door: Research Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="fixed-header">
+            <div class="container">
+                <!--NAVIGATION BAR-->
+                <nav class="current">
+                    <a href="index.html">Home</a>
+                    <a href="product.html">Products</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="research.html">Research</a>
+                    <a href="contact.html">Contact Us</a>
+                    <!-- for search bar which is aligned in right-->
+                    <div class="search">
+                        <i class="fas fa-search" style="color:black;"></i>
+                        <input type="text" name="search" id="search" placeholder="Search Products"style="height:10px;width:150px;border-radius:13px;">
+                    </div> 
+                      <a href="sign up.html"
+                        style="float:right;background-color: rgb(190, 235, 236); border-radius: 18px;">Sign up</a>
+                    <a href="login.html" style="float:right;">Login</a>
+                </nav>
+                <!--logo-->
+                <div class="img"><a href="index.html"><img style="float:left;margin-left:470px;" src="IMG\logo.png"
+                            width=200px; height="60px"></a>
+                </div>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button> <!-- button for TOP scroll-->
+    </header>
+
+    <div class="containers" style="margin-top:20px;margin-bottom: 10px;margin-left: 90px;">
+        <table width="1100px">
+            <tr>
+                <th align="center" style="font-size:25px">Reference Websites</th>
+                <th align="center" style="font-size:25px">myWebsite <br></th></font-size>
+            </tr>
+            <tr>
+                <td><img src="IMG/webheader.jpg" alt="Reference footer"  height=80  width=550></td>
+                <td><img src="IMG/myheader.jpg" alt="mywebsite footer"  height=80  width=550></td>
+            </tr>
+            <tr>
+                <td><img src="IMG/home.jpg" alt="sgg"   height=250   width=550></td>
+                <td><img src="IMG/myhome.jpg" alt="sgg"   height=250   width=550></td>
+            </tr> 
+            <tr>
+                <td><img src="IMG/weblogin.jpg" height=250   width=550></td>
+                <td><img src="IMG/mylogin.jpg" height=250   width=550></td>
+            </tr>
+            <tr>
+                <td><img src="IMG/codingnepalcontact.jpg"  height=280   width=550></td>
+                <td><img src="IMG/mycontact.jpg"  height=280   width=550></td>
+            </tr>
+            <tr>
+                <td><img src="IMG/shopifyfooter.jpg" alt="sgg"   height=70   width=550>
+                <img src="IMG/thedroneracingleaguefooter.jpg" height= 70 width=550></td>
+                <td><img src="IMG/myfooter.jpg"   height=90   width=550></td>
+            </tr>
+        </table>
+    </div>
+
+    <footer class="fixed-footer"><!--footer starts-->
+        <div class="container">
+            <div class="leftitems">
+                <p style="padding-top: 0px;font-size: 18px; padding-right: 3px;"><strong>FOLLOW US ON</strong></p>
+                <a href="https://www.facebook.com/adrian.chapagain.16/" target=_blank>
+                    <i class="fab fa-facebook"style="margin-left:15px;"></i></a>
+                <a href="https://www.twitter.com/" target=_blank><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target=_blank><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="centeritems">
+                <h4 align="center">&copy;Copyright Door2Door<br>Designed By: Narendra Chapagain</h4>
+            </div>
+            <div class="rightitems">
+                <h5 style="font-size: 18px;padding-right:94px;">Get the D2D Newsletter</h5>
+                <button value="SUBSCRIBE" class=submit-footer>SUBSCRIBE</button>
+                <select id="countries" name="country">
+                    <option value="australia">Nepal</option>
+                    <option value="canada">India</option>
+                    <option value="usa">China</option>
+                    <option value="usa">USA</option>
+                    <option value="usa">Australia</option>
+                    <option value="usa">Russia</option>
+                </select>
+                <i class="fas fa-globe" style="font-size:32px;float: right;margin: 6px -7px"></i>
+            </div>
+            <div class="terms">
+                <h3><a href="#" style="color:#b6babf">Terms of Service &emsp; Privacy Policy</a></h3>
+            </div>
+        </div>
+    </footer>
+    <script> //js code for top button starts here
+        //Get the button
+     
+        var topbutton = document.getElementById("topBtn");
+               
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topbutton.style.display = "block";
+          } else {
+            topbutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
